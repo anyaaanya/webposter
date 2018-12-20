@@ -1,0 +1,157 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  height: calc(100% - 8px);
+}
+
+h1 {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  color: #FFFDFD;
+}
+
+.first {
+    width: 100%;
+}
+
+.first p{
+  width: 255px;
+  padding-top:168px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.pic {
+  height: 100%;
+  background-image: url(../image/con.png);
+  background-size: cover;
+}
+
+.second {
+  height: 333px;
+  width: 100%;
+  background-image: url(../image/mask.png);
+  background-size: cover;
+}
+.second p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top:104px;
+  padding-left: 30px;
+  padding-right: 36px;
+}
+.third p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top:211px;
+  padding-left: 31px;
+  padding-right: 30px;
+}
+
+.fourth {
+  width: 100%;
+  height: calc(380px - 147px);
+  background-image: url(../image/lines2.png);
+  background-size: cover;
+  padding-top: 147px;
+}
+
+.fourth p{
+  margin: 0;
+  width: 232px;
+  font-size: 14px;
+  background-color: black;
+  /* line-height: 17px; */
+  padding-left: 19px;
+  /* padding-right: 30px; */
+}
+
+.five {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 251px;
+}
+
+.five p {
+  width: 221px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 32px;
+  padding-left: 45px;
+  margin-bottom: 40px;
+}
+
+.five span {
+margin-left: 91px;
+margin-top: 10px;
+  font-size: 18px;
+  padding: 5px;
+  background: #C4C4C4;
+  color: black;
+}
+
+.finish h2 {
+  bottom: 28px;
+  left: 10px;
+  position: absolute;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.finish {
+  position: relative;
+  height: 141px;
+  background-image: url(../image/grid.png);
+  background-size: cover;
+}
+
+#lines {
+  width: 100%;
+  position: absolute;
+  height: 570px;
+  left: 0px;
+  top: 341px;
+
+  background: url(../image/lines.png);
+  mix-blend-mode: lighten;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#phone {
+
+  position: absolute;
+  width: 102px;
+  height: 145px;
+  left: 100px;
+  top: 1238px;
+
+  background: url(../image/phone.png);
+  mix-blend-mode: lighten;
+}
+
+#cloud {
+  position: absolute;
+  width: 276px;
+  height: 135px;
+  left: 36px;
+  top: 1287px;
+  background: url(../image/cloude.png);
+}
