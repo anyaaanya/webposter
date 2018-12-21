@@ -1,157 +1,344 @@
-html {
-  height: 100vh;
-}
+@media all and (max-width: 500px){
+  html {
+    height: 100vh;
+  }
 
-body {
-  background-color: black;
-  height: calc(100% - 8px);
-}
+  body {
+    background-color: black;
+    height: calc(100% - 8px);
+  }
 
-h1 {
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
+  h1 {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 16px;
-  color: #FFFDFD;
-}
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFDFD;
+  }
 
-.first {
+  .first {
+      width: 100%;
+  }
+
+  .first p{
+    width: 70%;
+    padding-top:168px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .pic {
+    height: 100%;
+    background-image: url(../image/con.png);
+    background-size: cover;
+  }
+
+  .second {
+    height: 333px;
     width: 100%;
+    background-image: url(../image/mask.png);
+    background-size: cover;
+  }
+  .second p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 34%;
+    padding-left: 13%;
+    padding-right: 12%;
+  }
+  .third {
+    text-align: center;
+    position: relative;
+  }
+  .third p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top:211px;
+    padding-left: 31px;
+    padding-right: 30px;
+  }
+
+  .fourth {
+    width: 100%;
+    height: calc(380px - 147px);
+    background-image: url(../image/lines2.png);
+    background-size: cover;
+    padding-top: 26.5vh;;
+  }
+
+  .fourth p{
+    margin: 0;
+    width: 232px;
+    font-size: 14px;
+    background-color: black;
+    padding-left: 19px;
+  }
+
+  .five {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 251px;
+  }
+
+  .five p {
+    width: 221px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-left: calc(50% - 110px);
+    margin-bottom: 40px;
+  }
+
+  .five span {
+    margin-left: calc(50% - 58px);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    background: #C4C4C4;
+    color: black;
+  }
+
+  .five span:active {
+    border: 2px solid white;
+    margin-left: calc(50% - 58px);
+  }
+
+  .finish h2 {
+    bottom: 28px;
+    left: 10px;
+    position: absolute;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  .finish {
+    position: relative;
+    height: 141px;
+    background-image: url(../image/grid.png);
+    background-size: cover;
+  }
+
+  #lines {
+    width: calc(100% - 16px);
+    position: absolute;
+    height: 570px;
+    left: 8px;
+    top: 70vh;
+
+    background: url(../image/lines.png);
+    mix-blend-mode: lighten;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .third #phone {
+
+    position: absolute;
+    width: 102px;
+    height: 145px;
+    left: calc(50% - 56px);
+    margin: auto;
+    top: -20px;
+
+    background: url(../image/phone.png);
+    mix-blend-mode: lighten;
+  }
+
+  .third #cloud {
+    margin: auto;
+    position: absolute;
+    width: 276px;
+    height: 135px;
+    left: calc(50% - 138px);
+    top: 20px;
+    background: url(../image/cloude.png);
+  }
 }
 
-.first p{
-  width: 255px;
-  padding-top:168px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
+@media all and (min-width: 500px) {
+  html {
+    height: 100vh;
+  }
 
-.pic {
-  height: 100%;
-  background-image: url(../image/con.png);
-  background-size: cover;
-}
+  body {
+    background-color: black;
+    height: 100vw;
+  }
 
-.second {
-  height: 333px;
-  width: 100%;
-  background-image: url(../image/mask.png);
-  background-size: cover;
-}
-.second p{
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
-  padding-top:104px;
-  padding-left: 30px;
-  padding-right: 36px;
-}
-.third p{
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
-  padding-top:211px;
-  padding-left: 31px;
-  padding-right: 30px;
-}
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
 
-.fourth {
-  width: 100%;
-  height: calc(380px - 147px);
-  background-image: url(../image/lines2.png);
-  background-size: cover;
-  padding-top: 147px;
-}
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFDFD;
+  }
 
-.fourth p{
-  margin: 0;
-  width: 232px;
-  font-size: 14px;
-  background-color: black;
-  /* line-height: 17px; */
-  padding-left: 19px;
-  /* padding-right: 30px; */
-}
+  .first {
+      width: 100%;
+  }
 
-.five {
-  font-family: 'Montserrat', sans-serif;
-  width: 100%;
-  height: 251px;
-}
+  .first p{
+    width: 566px;
+    font-size: 36px;
+    line-height: 40px;
+    padding-top: 800px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+  }
 
-.five p {
-  width: 221px;
-  text-align: center;
-  font-size: 14px;
-  padding-top: 32px;
-  padding-left: 45px;
-  margin-bottom: 40px;
-}
+  .pic {
+    height: 68vw;
+    background-image: url(../image/big/con.png);
+    background-size: cover;
+  }
 
-.five span {
-margin-left: 91px;
-margin-top: 10px;
-  font-size: 18px;
-  padding: 5px;
-  background: #C4C4C4;
-  color: black;
-}
+  .second {
+    height: 1000px;
+    width: 100%;
+    background-image: url(../image/big/mask2.png);
+    background-size: cover;
+  }
+  .second p{
+    text-align: center;
+    font-size: 48px;
+    line-height: normal;
+    padding-top: 20%;
+    padding-left: 19%;
+    padding-right: 20%;
+  }
+  .third {
+    text-align: center;
+    position: relative;
+  }
+  .third p{
+    text-align: center;
+    font-size: 48px;
+    line-height: normal;
+    padding-top: 600px;
+    padding-left: 31px;
+    padding-right: 30px;
+  }
 
-.finish h2 {
-  bottom: 28px;
-  left: 10px;
-  position: absolute;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
+  .fourth {
+    width: 100%;
+    height: calc(1364px - 774px);
+    background-image: url(../image/big/lines2.png);
+    background-size: cover;
+    padding-top: 42vh;
+  }
 
-.finish {
-  position: relative;
-  height: 141px;
-  background-image: url(../image/grid.png);
-  background-size: cover;
-}
+  .fourth p{
+    margin: 0;
+    width: 1334px;
+    font-size: 48px;
+    background-color: black;
+    padding-left: 19px;
+  }
 
-#lines {
-  width: 100%;
-  position: absolute;
-  height: 570px;
-  left: 0px;
-  top: 341px;
+  .five {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 900px;
+  }
 
-  background: url(../image/lines.png);
-  mix-blend-mode: lighten;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+  .five p {
+    width: 832px;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 250px;
+    padding-left: calc(50% - 416px);
+    margin-bottom: 40px;
+  }
 
-#phone {
+  .five span {
+    margin-left: calc(50% - 200px);
+    margin-top: 10px;
+    padding: 50px;
+    font-size: 64px;
+    padding: 5px;
+    background: #C4C4C4;
+    color: black;
+  }
 
-  position: absolute;
-  width: 102px;
-  height: 145px;
-  left: 100px;
-  top: 1238px;
+  .five span:active {
+    border: 2px solid white;
+    margin-left: calc(50% - 202px);
+  }
 
-  background: url(../image/phone.png);
-  mix-blend-mode: lighten;
-}
+  .finish h2 {
+    bottom: 28px;
+    left: 10px;
+    font-size: 96px;
+    position: absolute;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
 
-#cloud {
-  position: absolute;
-  width: 276px;
-  height: 135px;
-  left: 36px;
-  top: 1287px;
-  background: url(../image/cloude.png);
+  .finish {
+    position: relative;
+    height: 705px;
+    background-image: url(../image/big/grid.png);
+    background-size: cover;
+  }
+
+  #lines {
+    width: calc(100% - 16px);
+    position: absolute;
+    height: 1200px;
+    left: 8px;
+    top: 70vh;
+    background: url(../image/big/lines.png);
+    background-size: cover;
+    mix-blend-mode: lighten;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .third #phone {
+
+    position: absolute;
+    width: 317px;
+    height: 416px;
+    left: calc(40% - 159px);
+    top: -40px;
+
+    background: url(../image/big/phone.png);
+    background-size: cover;
+    mix-blend-mode: lighten;
+  }
+
+  .third #cloud {
+    margin: auto;
+    position: absolute;
+    width: 858px;
+    height: 387px;
+    left: calc(50% - 429px);
+    top: 70px;
+    background: url(../image/cloude.png);
+    background-size: cover;
+  }
 }
